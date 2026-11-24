@@ -1,0 +1,14 @@
+{
+  "name": "inference-request-preemption-cache-validator",
+  "version": "1.0.0",
+  "description": "验证高优先级请求抢占后，低优先级请求的 KV 缓存与输出恢复计划（纯模拟，不调用真实推理引擎）",
+  "type": "module",
+  "main": "src/validator.js",
+  "scripts": {
+    "test": "node --test",
+    "validate": "node src/cli.js"
+  },
+  "engines": {
+    "node": ">=24.16.0"
+  }
+}
